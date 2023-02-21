@@ -1,0 +1,171 @@
+@media (max-width: 600px) {
+  .project {
+    width: 100%;
+    font-size: 24px;
+    padding: 10px;
+  }
+  nav ul {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .img {
+    width: 40%;
+  }
+  .img1 {
+    width: 30%;
+  }
+  .img2 {
+    width: 20%;
+  }
+}
+
+@media (min-width: 601px) {
+  .project {
+    width: 620px;
+  }
+}
+
+body {
+  padding: 0;
+  max-width: 100%;
+  margin: auto;
+  background-image: url("background.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+nav ul li a {
+  width: 100%;
+  font-size: 36px;
+}
+
+nav ul {
+  max-width: 100%;
+  width: 100%;
+  display: flex;
+  list-style: none;
+  background-color: #e9e9e9;
+  margin: auto;
+  padding: 0;
+  justify-content: center;
+}
+h6{
+font-size: 36px;
+margin-top: auto;
+}
+
+h2 {
+  margin: center;
+}
+h1, h5, h4 {
+  margin-left: 10%;
+  text-align: left;
+  font-size: 32px;
+}
+h10{
+  margin: auto auto auto  270px;
+}
+h11{
+  margin-top: -18px;
+}
+h12{
+  margin: auto 290px auto auto;
+  margin-top: -18px;
+}
+
+nav li {
+  margin: auto;
+}
+
+nav a {
+  display: block;
+  color: rgb(97, 54, 54);
+  text-decoration: none;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+  width: 200px;
+  margin: auto 100px auto auto;
+}
+
+.img1 {
+  max-width: 100%;
+  height: auto;
+  width: 200px;
+  margin: auto;
+}
+
+.img2 {
+  max-width: 100%;
+  height: auto;
+  width: 200px;
+  margin: auto auto auto 100px;
+}
+
+.project-container {
+  margin: auto;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.box {
+ 
+  background-size: cover;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #b8b8b8;
+  position: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.project {
+  width: 100%;
+  text-align: center;
+  height: 350px;
+  margin: 10px;
+}
+
+.personal {
+  background-color: #b8b8b8;
+  width: 100%;
+}
+
+.work {
+  background-color: #fff;
+  width: 100;
+}
+.blink {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+      opacity: 0;
+  }
+}
+
+.container {
+  margin: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 5em;
+  color: limegreen;
+  border: 1px solid limegreen;
+  text-shadow: 0 0 5px limegreen;
+  text-align: center;
+  width: 100%;
+  font-size: 100px;
+}
